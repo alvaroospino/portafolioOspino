@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Profesional</title>
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="scroll-bar"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">
+                <span>{</span>Dev<span>}</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Inicio</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Desarrollador <span>Junior</span></h1>
+                <p class="hero-subtitle">Creando experiencias web excepcionales</p>
+                <a href="#projects" class="hero-cta">Ver Proyectos</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="img/alvaroOspino.jpg" alt="Tu Nombre" class="profile-image">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+<section id="about" class="about">
+    <h2 class="section-title">Sobre Mí</h2>
+    <div class="about-container">
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-description">
+                    Soy un desarrollador Junior apasionado por crear soluciones digitales innovadoras. 
+                    Con experiencia en el desarrollo de aplicaciones web modernas, 
+                    me especializo en convertir ideas complejas en interfaces intuitivas y funcionales.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Desarrollo Web</h3>
+                        <p>Creación de aplicaciones web modernas y responsivas</p>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend</h3>
+                        <p>Desarrollo de APIs y gestión de bases de datos</p>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Diseños adaptables a todos los dispositivos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-container">
+                <h3 class="skills-title">Mis Habilidades</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="projects-grid">
+            <!-- Projects will be added dynamically -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Información de contacto</h3>
+                <div class="contact-detail">
+                    <i class="fas fa-envelope"></i>
+                    <span>email@ejemplo.com</span>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-phone"></i>
+                    <span>+123 456 7890</span>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Santa Marta, Colombia</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" placeholder=" ">
+                    <label for="name" class="form-label">Nombre</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" id="email" placeholder=" ">
+                    <label for="email" class="form-label">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" id="message" rows="5" placeholder=" "></textarea>
+                    <label for="message" class="form-label">Mensaje</label>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Enviar Mensaje</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Alvaro David Ospino. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</
