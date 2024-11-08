@@ -24,6 +24,14 @@
                 tags: ["HTML", "CSS", "JavaScript"],
                 demoUrl: "https://alvaroospino.github.io/Academia-De-Historia/",
                 githubUrl: "https://github.com/alvaroospino/Academia-De-Historia"
+            },
+            {
+                title: "Diario Del Programador",
+                description: "Este proyecto está dirigido a programadores creativos que disfrutan de documentar ideas, eventos cotidianos y experiencias de programación.",
+                image: "img/DiarioDelProgramador.png",
+                tags: ["HTML", "CSS", "JavaScript"],
+                demoUrl: "https://alvaroospino.github.io/Diario-Del-Programador/",
+                githubUrl: "https://github.com/alvaroospino/Diario-Del-Programador"
             }
         ];
 
